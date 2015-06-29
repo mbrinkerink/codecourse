@@ -5,6 +5,6 @@ print name
 print "Hallo!"
 print "Nu wil ik je leeftijd weten."
 age = raw_input("Hoe oud ben je?")
-oldage = age * 2
+oldage = int(age) * 2
 print oldage
 print "Oud zeg!"
