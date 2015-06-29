@@ -1,0 +1,9 @@
+cd                 # Change directory
+ls                 # List
+ls -l              # List als een lijst
+pwd                # Print working directory
+python bestand.py  # Voer bestand.py uit
+<TAB>              # Vul aan (handig voor bestandsnamen en paden)
+<Pijltje omhoog>   # Ga door vorige commando's heen
+<ENTER>            # Voer uit
+reset of <CTRL-L>  # Maak scherm leeg
