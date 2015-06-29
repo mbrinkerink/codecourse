@@ -8,5 +8,6 @@ f = None        # None, niks :)
 print a + b     # Optellen
 print b - a     # Aftrekken
 print c * a     # Vermenigvuldigen
+print b % 3     # Modulo (rest)
 print a / b     # Delen, hier gebeurd iets geks...
 print d + a     # Kan je ook strings optellen?
