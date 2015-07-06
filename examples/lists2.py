@@ -4,9 +4,11 @@ birthdays = [
     ["Jesse", 1985]
 ]
 
-print birthdays[0]
-print birthdays[0][1]
+print birthdays[0] # ["Hay", 1983]
+print birthdays[0][1] # 1983
 
 for bday in birthdays:
-    print "%s is jarig in %s" % (bday[0], bday[1])
+    name = bday[0]
+    year = bday[1]
+    print "%s is jarig in %s" % (name, year)
 

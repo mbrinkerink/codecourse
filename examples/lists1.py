@@ -3,8 +3,8 @@ names = ["Bert", "Ernie", "Pino"]
 for name in names:
     print "Aangenaam, " + name
 
-print names[1]
-print names[-1]
+print names[1] # "Bert"
+print names[-1] # "Pino"
 
 hellos = []
 
@@ -24,6 +24,8 @@ print 1983 in years
 eighties = range(1980, 1989)
 
 for year in years:
-    print "%s in de jaren tachtig? %s" % (year, year in eighties)
+    is_eighties = year in eighties
+    print "%s in de jaren tachtig? %s" % (year, is_eighties)
 
+# Een list kan meerdere type variabelen door elkaar hebben
 things = [42, True, "Hallo"]
