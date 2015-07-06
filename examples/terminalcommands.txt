@@ -7,3 +7,5 @@ python bestand.py  # Voer bestand.py uit
 <Pijltje omhoog>   # Ga door vorige commando's heen
 <ENTER>            # Voer uit
 reset of <CTRL-L>  # Maak scherm leeg
+git clone          # 'Kloon' een Git repository
+git pull           # Haal de laatste wijzigingen op

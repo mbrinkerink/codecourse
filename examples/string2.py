@@ -8,5 +8,7 @@ print hello[0].isupper()
 print hello[-1].isupper()
 print hello.strip()
 
+print len(hello)
+
 print "allo" in hello
 print helloworld % (hello, world)
