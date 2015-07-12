@@ -1,11 +1,31 @@
-cd                 # Change directory
+# Commando's
+cd <directory>     # Ga naar <directory>
+cd ..              # Ga een directory omhoog
+cd ../../          # Ga twee directories omhoog
+cd                 # Met geen argument ga je terug naar je home directory (/Users/<jouw naam>)
 ls                 # List
 ls -l              # List als een lijst
 pwd                # Print working directory
-python bestand.py  # Voer bestand.py uit
+mkdir <directory>  # Maak een nieuwe directory
+python bestand.py  # Voer bestand.py uit met Python
+rm <bestand>       # Verwijder bestand
+
+# Bestanden lezen en bekijken
+cat <bestand>      # Print een bestand naar de terminal
+less <bestand>     # Lees een bestand (iets vriendelijker), met <u> en <d> kun je <up> en <down>
+nano <bestand>     # Simple teksteditor
+
+# Handig
 <TAB>              # Vul aan (handig voor bestandsnamen en paden)
 <Pijltje omhoog>   # Ga door vorige commando's heen
 <ENTER>            # Voer uit
 reset of <CTRL-L>  # Maak scherm leeg
-git clone          # 'Kloon' een Git repository
-git pull           # Haal de laatste wijzigingen op
+
+# Git
+git clone           # 'Kloon' een Git repository
+git pull            # Haal de laatste wijzigingen op
+git add <bestand>   # Voeg <bestand> toe aan een Git repo
+git add .           # Voeg alle bestanden toe aan een Git repo
+git commit -m "bla" # Commit naar je repo
+git push            # 'Push' je wijzigingen naar een externe Git repo
+
