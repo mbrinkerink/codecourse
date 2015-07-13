@@ -13,6 +13,6 @@ for naam in namen:
 # Begin hier weer met een for-loop zodat de drie fases niet door elkaar lopen.
 for naam in namen:
 	if ("te" in naam):
-		print "Er zit 'te' in %s" %(naam)
+		print "Er zit 'te' in %s" % (naam)
 for naam in namen:
 	print "%s is een %s" % (naam, vrucht)
