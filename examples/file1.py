@@ -5,3 +5,5 @@ for person in people:
 
 allpeople = people.readlines()
 print allpeople
+
+people.close()
